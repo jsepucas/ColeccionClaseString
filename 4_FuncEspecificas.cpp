@@ -20,3 +20,14 @@ int main() {
         // Pedir al usuario que introduzca la subcadena de reemplazo
         std::cout << "Introduce la subcadena de reemplazo: ";
         std::getline(std::cin, subcadenaReemplazo);
+
+        cadenaPrincipal.replace(posicion, subcadenaABuscar.length(), subcadenaReemplazo);
+
+        // Imprimir la cadena resultante
+        std::cout << "Cadena después del reemplazo: " << cadenaPrincipal << std::endl;
+    } else {
+        std::cout << "Subcadena no encontrada." << std::endl;
+    }
+
+    return 0;
+}
