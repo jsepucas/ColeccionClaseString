@@ -15,7 +15,7 @@ int main() {
     size_t posicion = cadenaPrincipal.find(subcadenaABuscar);
 
     if (posicion != std::string::npos) {
-        std::cout << "Subcadena encontrada en el índice: " << posicion << std::endl;
+        std::cout << "Subcadena encontrada en el indice: " << posicion << std::endl;
 
         // Pedir al usuario que introduzca la subcadena de reemplazo
         std::cout << "Introduce la subcadena de reemplazo: ";
